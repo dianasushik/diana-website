@@ -1,3 +1,6 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+let btn = document.createElement("button");
+btn.innerHTML = "Click Me";
+btn.addEventListener ("click", function() {
+    alert("I cannot wait to get better at this!");
+});
+document.body.appendChild(btn);
